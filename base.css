@@ -1,0 +1,38 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'Quicksand', 'Noto Sans JP', sans-serif;
+}
+.header {
+  display: none;
+}
+.top {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  background-image: url(top.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -11
+}
+.top-text {
+  position: absolute;
+  padding: 250px 0 0 180px;
+  font-size: 120px;
+  color: #707070;
+}
+.top-text p {
+  padding-left: 120px;
+  font-size: 65px;
+}
+.top-text p span {
+  font-size: 45px;
+}
